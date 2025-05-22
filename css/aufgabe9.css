@@ -96,7 +96,11 @@
   padding: 2rem 0;
   background-color: #f4f4f4;
 }
-
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
 .container-about {
   display: flex;
   flex-direction: column;
@@ -242,4 +246,15 @@
 .footer p {
   font-size: 1rem;
   margin: 0;
+}
+
+.projects {
+  padding: 2rem 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
 }
