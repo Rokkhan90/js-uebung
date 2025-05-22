@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Übung</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Übung</h1>
+        <nav>
+            <ul>
+                <li><a href="#section1">Aufgabe 1</a></li>
+                <li><a href="#section2">Aufgabe 2</a></li>
+                <li><a href="#section3">Aufgabe 3</a></li>
+                <li><a href="#section4">Aufgabe 4</a></li>
+                <li><a href="#section5">Aufgabe 5</a></li>
+                <li><a href="#section6">Aufgabe 6</a></li>
+                <li><a href="#section7">Aufgabe 7</a></li>
+                <li><a href="#section8">Aufgabe 8</a></li>
+                <li><a href="aufgabe9.html">Aufgabe 9</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="section1">
+            <div class="container">
+                <h1>Aufgabe 1</h1>
+                <h2 id="colorChange">Farbe ändern</h2>
+                <p id="modifyText">Klicken um die Farbe der Überschrift zu ändern und den Text des Absatzes dynamisch zu modifizieren.</p>
+                <button id="changeButton">Klick mich</button>
+                <button id="resetButton">Zurücksetzen</button>
+            </div>
+        </section>
+
+        <section id="section2">
+            <div class="container">
+                <h1>Aufgabe 2</h1>
+                <h2>Absatz hinzufügen</h2>
+                <p id="text">Jedes Mal wenn der Button geklickt wird, wird ein neuer Absatz hinzugefügt.</p>
+                <button id="addButton">Absatz hinzufügen</button>
+                <button id="clearButton">Alle Absätze entfernen</button>
+                <div id="dynamicContent"></div>
+            </div>
+        </section>
+        <section id="section3">
+            <div class="container">
+                <h1>Aufgabe 3</h1>
+                <h2>Zahlen addieren</h2>
+            <label for="number1"><strong>Erste Zahl:</strong></label>
+            <input class="number-input" type="number" id="number1" name="number1">
+            <label for="number2"><strong>Zweite Zahl:</strong></label>
+            <input class="number-input" type="number" id="number2" name="number2">   
+            <button id="sumButton">Summe</button>
+            <p class="result"><strong>Ergebnis: </strong><span id="result">0</span></p>
+            </div>
+        </section>
+        <section id="section4">
+            <div class="container">
+                <h1>Aufgabe 4</h1>
+                <h2>Zahlen Array</h2>
+                <p id="arrayText">Klicken um das Array [1, 2, 3, 4, 5] auszugeben.</p>
+                <button id="arrayButton">Array ausgeben</button>
+                <button id="clearArrayButton">Array leeren</button>
+                <div id="arrayOutput"></div>
+            </div>
+        </section>
+        <section id="section5">
+            <div class="container">
+                <h1>Aufgabe 5</h1>
+                <h2>Userinput</h2>
+                <label for="userInput">Text eingeben:</label>
+                <input class="number-input" type="text" id="userInput" placeholder="z.B. Hallo Welt">
+                <button id="submitInput">Absenden</button>
+                <p id="inputOutput"></p>
+            </div>
+        </section>
+        <section id="section6">
+            <div class="container">
+                <h1>Aufgabe 6</h1>
+                <h2>Zahlen Multiplizieren</h2>
+                <label for="argumentNumber">Zahl als Argument eingeben:</label>
+                <input class="number-input" type="text" id="argumentNumber" placeholder="z.B. 1, 2, 3, 4, 5">
+                <button id="multiplyButton">Multiplizieren</button>
+                <p id="multiplyOutput"></p>
+            </div>
+        </section>
+        <section id="section7">
+            <div class="container">
+                <h1>Aufgabe 7</h1>
+                <h2>Button Alert</h2>
+                <p>Klicken um einen Alert auszugeben.</p>
+                <input class="number-input" type="text" id="alertInput" placeholder="z.B.Das ist ein Alert">
+                <button id="alertButton">Alert</button>
+            </div>
+        </section>
+        <section id="section8">
+  <div class="container">
+    <h1>Aufgabe 8</h1>
+    <h2>Benutzereingabe anzeigen</h2>
+    <label for="userInput8">Text eingeben:</label>
+    <input class="number-input" type="text" id="userInput8" placeholder="z.B. Hallo Welt">
+    <button id="submitInput8">Anzeigen</button>
+    <h2 id="output"></h2>
+  </div>
+</section>
+    </main>
+    
+</body>
+</html>
